@@ -1,0 +1,44 @@
+{
+    "menu": {
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+    },
+
+    "home": {
+        "home_text-1": "Hola! Soy",
+        "home_text-3": "Desarrollador web",
+        "parrafo-info": "Estudiante de Ingeniería de Sistemas con sólidos conocimientos en programación, me enfoco más al Desaarrollo Web. Estoy listo para contribuir en entornos profesionales, aplicando mis conocimientos y habilidades técnicas para desarrollar proyectos que brinden la mejor experiencia al usuario.",
+        "cv_button": "Descargar CV",
+        "contact_button": "Contacto"
+    },
+
+    "sobre-mi": {
+        "title": "Sobre mí",
+        "texto_sobreMi": "Soy estudiante del pregrado de Ingeniería de Sistemas, enfocado en programación.<br>Aspiro conseguir empleo en el mundo del Desarrollo, adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional.<br><br>Soy una persona empática y entusiaste, con competencias enfocadas en el trabajo en equipo, comunicación asertiva, resolución de problemas, responsable y proactiva, me gusta aprender nuevas experiencias y superarme constantemente."
+    },
+
+    "habilidades": {
+        "title": "Habilidades"
+    },
+
+    "formacion": {
+        "title": "Formación",
+        "formacion1": "Ingeniería de Sistemas",
+        "tiempo-formacion1": "2020 - En curso"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        "title-proyecto2": "Portafolio",
+        "info-proyecto2": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación."
+    },
+
+    "contacto": {
+        "title": "Contacto",
+        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
+        "btn-enviar": "Enviar"
+    }
+}

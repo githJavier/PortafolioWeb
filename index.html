@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Javier Pablo Desarrollador Web">
+    <meta name="robots" content="index,follow">
+
+    <title>Javier Pablo | Desarrollador Web</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header id ="header-main" class="header">
+        <img src="./assets/images/logo-jp.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav id="nav-menu-main" class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Formación</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Proyectos</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+
+            <!-- Idiomas de la página -->
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/images/icon-spain.png" alt="Español/Spain">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/images/icon-en.png" alt="Inglés/English">
+                </div>
+            </div>
+            <hr>
+            <div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <button id="btnTema" class="">Tema Claro</button>
+                </div>
+            </div>
+        </nav>
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/image-home.png" alt="Ilustración mujer y plantas">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p id="home_text-1" class="home_text-1" data-section="home" data-value="home_text-1">Hola! Soy</p>
+                    <p id="home_text-2" class="home_text-2">Javier Pablo</p>
+                </div>
+
+                <div>
+                    <p id="home_text-3" class="home_text-3 text-type" data-section="home" data-value="home_text-3">Desarrollador web</p>
+                </div>
+
+                <div id="container-info" class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">Estudiante de Ingeniería de Sistemas con sólidos conocimientos en programación, me enfoco más al Desaarrollo Web. Estoy listo para contribuir en entornos profesionales, aplicando mis conocimientos y habilidades técnicas para desarrollar proyectos que brinden la mejor experiencia al usuario.</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="https://drive.google.com/file/d/1Rlpw7YS2TouKlMw-laRKE2DvP-zp7xk9/view?usp=sharing" target="_blank">
+                        <button id="btn_cv" class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contacto</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <!--Links Tema Oscuro-->
+                <div  id="icons-dark" class="">
+                    <a href="https://www.linkedin.com/in/javier-pablo-pascual-24ba78292/" target="_blank">
+                        <img src="./assets/images/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                    </a>
+                    <a href="https://github.com/githJavier" target="_blank">
+                        <img src="./assets/images/icon-github.png" alt="GitHub" class="icon-github">
+                    </a>
+                    <a href="https://www.instagram.com/_javierpe/?next=%2F" target="_blank">
+                        <img src="./assets/images/icon-instagram.png" alt="Instagram" class="icon-instagram">
+                    </a>
+                    <a href="mailto:pedrojavierpablopascual@gmail.com" target="_blank">
+                        <img src="./assets/images/icon-gmail.png" alt="Gmail">
+                    </a>
+                </div>
+                <!--Links Tema Claro-->
+                <div id="icons-clear" class="icons-none">
+                    <a href="https://www.linkedin.com/in/javier-pablo-pascual-24ba78292/" target="_blank">
+                        <img src="./assets/images/icon-linkedin-alt.png" alt="LinkedIn" class="icon-linkedin">
+                    </a>
+                    <a href="https://github.com/githJavier" target="_blank">
+                        <img src="./assets/images/icon-github-alt.png" alt="GitHub" class="icon-github">
+                    </a>
+                    <a href="https://www.instagram.com/_javierpe/?next=%2F" target="_blank">
+                        <img src="./assets/images/icon-instagram-alt.png" alt="Instagram" class="icon-instagram">
+                    </a>
+                    <a href="mailto:pedrojavierpablopascual@gmail.com" target="_blank">
+                        <img src="./assets/images/icon-gmail-alt.png" alt="Gmail">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">SOBRE MÍ</h1>
+
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Javier Pablo</span>
+                    <span id="texto_sobreMi" class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">Soy estudiante del pregrado de Ingeniería de Sistemas, enfocado en programación.<br>Aspiro conseguir empleo en el mundo del Desarrollo, adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional.<br><br>Soy una persona empática y entusiaste, con competencias enfocadas en el trabajo en equipo, comunicación asertiva, resolución de problemas, responsable y proactiva, me gusta aprender nuevas experiencias y superarme constantemente.</span>
+                </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="./assets/images/image-sobreMi.png" alt="Ilustración hombre y café">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">HABILIDADES</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-html.png" alt="HTML">
+                    <p>HTML 5</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-css.png" alt="CSS">
+                    <p>CSS 3</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-Notion.png" alt="Notion">
+                    <p>Notion</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-tailwind.png" alt="Tailwind">
+                    <p>Tailwind</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-git.png" alt="Git">
+                    <p>Git</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-github-hab.png" alt="GitHub">
+                    <p>Github</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-trello.png" alt="Trello">
+                    <p>Trello</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-php.png" alt="PHP">
+                    <p>PHP</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-java.png" alt="java">
+                    <p>Java</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-python.png" alt="Pyhton">
+                    <p>Python</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-angular.png" alt="Angular">
+                    <p>Angular</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-wordpress.png" alt="WordPress">
+                    <p>WordPress</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-react.png" alt="React">
+                    <p>React</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-bootstrap.png" alt="Bootstrap">
+                    <p>Bootstrap</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-mysql.png" alt="Mysql">
+                    <p>MySQL</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-mongodb.png" alt="MongoDB">
+                    <p>MongoDB</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-sqlServer.png" alt="SQL server">
+                    <p>SQL Server</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-oracle.png" alt="Oracle">
+                    <p>Oracle</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">FORMACIÓN</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="./assets/images/logo-untels.png" alt="Logo - Universidad Nacional Tecnológica de Lima Sur">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">Ingeniería de Sistemas</p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">2020 - En curso</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">PROYECTOS</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-portafolio.png" alt="Proyecto: Portafolio">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">Portafolio</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="#" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/mariasmoUN/portafolio" target="_blank">
+                            <button class="btn_repo">
+                                <img src="./assets/images/icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+            </div> 
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title" data-aos="fade-up">CONTACTO</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    
+                <div class="container--contacto">
+                    <div class="container_text--contacto">
+                        <p data-section="contacto" data-value="text">Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+                    </div>
+    
+                    <form id="form" class="form-contact" name="contacto-portafolio" netlify>
+                        <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
+    
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div id="footer-container" class="container--footer">
+            <div id="container-redes" class="container_redes-footer">
+                <div id="icon-dark" class="container-icon-dark">
+                    <a href="https://www.linkedin.com/in/javier-pablo-pascual-24ba78292/" target="_blank">
+                        <img src="./assets/images/icon-linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/githJavier" target="_blank">
+                        <img src="./assets/images/icon-github.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.instagram.com/_javierpe/?next=%2F" target="_blank">
+                        <img src="./assets/images/icon-instagram.png" alt="Instagram">
+                    </a>
+                    <a href="mailto:pedrojavierpablopascual@gmail.com" target="_blank">
+                        <img src="./assets/images/icon-gmail.png" alt="Gmail">
+                    </a>
+                </div>
+                <div id="icon-light" class="container-icon-none">
+                    <a href="https://www.linkedin.com/in/javier-pablo-pascual-24ba78292/" target="_blank">
+                        <img src="./assets/images/icon-linkedin-alt.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/githJavier" target="_blank">
+                        <img src="./assets/images/icon-github-alt.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.instagram.com/_javierpe/?next=%2F" target="_blank">
+                        <img src="./assets/images/icon-instagram-alt.png" alt="Instagram">
+                    </a>
+                    <a href="mailto:pedrojavierpablopascual@gmail.com" target="_blank">
+                        <img src="./assets/images/icon-gmail-alt.png" alt="Gmail">
+                    </a>
+                </div>
+            </div>
+            <div id="container-text-footer" class="container_text--footer">
+                <span>Copyright © | Coded with</span>
+                <span></span>
+                <span>by</span>
+                <span>Javier Pablo</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div id="go-top-button" class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+</body>
+</html>

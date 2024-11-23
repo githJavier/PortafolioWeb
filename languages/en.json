@@ -1,0 +1,44 @@
+{
+    "menu": {
+        "item2": "About me",
+        "item3": "Skills",
+        "item4": "Training",
+        "item5": "Projects",
+        "item6": "Contact"
+    },
+
+    "home": {
+        "home_text-1": "Hi! I'm",
+        "home_text-3": "Web Developer",
+        "parrafo-info": "Systems Engineering student with solid knowledge in programming, I focus more on Web Development. I am ready to contribute in professional environments, applying my knowledge and technical skills to develop projects that provide the best user experience.",
+        "cv_button": "Download CV",
+        "contact_button": "Contact"
+    },
+
+    "sobre-mi": {
+        "title": "About me",
+        "texto_sobreMi": "I am an undergraduate student in Systems Engineering, focused on programming.<br> I aspire to obtain a job in the development field, gain experience, acquire new knowledge, and strengthen my professional life.<br><br> I am an empathetic and enthusiastic person, with skills focused on teamwork, assertive communication, problem-solving, responsibility, and proactivity. I enjoy learning new experiences and constantly improving myself."
+    },
+
+    "habilidades": {
+        "title": "Skills"
+    },
+
+    "formacion": {
+        "title": "Training",
+        "formacion1": "Systems Engineering",
+        "tiempo-formacion1": "2020 - In progress"
+    },
+
+    "proyectos": {
+        "title": "Projects",
+        "title-proyecto2": "Portfolio",
+        "info-proyecto2": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background."
+    },
+
+    "contacto": {
+        "title": "Contact",
+        "text": "Complete the form below and I will contact you as soon as possible.",
+        "btn-enviar": "Send"
+    }
+}

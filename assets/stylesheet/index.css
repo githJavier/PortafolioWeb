@@ -1,4 +1,4 @@
-@font-face {
+    @font-face {
     font-family: 'Cooper Hewitt';
     src: url('../fonts/CooperHewitt-Light.woff') format('woff'),
     url('../fonts/CooperHewitt-Thin.woff') format('woff');
@@ -14,7 +14,6 @@
     /*Colores Oscuros*/
     --yellow: #F2E205;
     --black-alt:#0D0D0D;
-    --eerie-black: #1F1F1F;
     --jet: #292929;
     --dark-blue:#00394D;
     --orange-alt:#F29F05;
@@ -24,6 +23,7 @@
     --negro-absoluto:#000;
     --gris-mate: #262626;
     /*Colores Oscuros*/
+    --eerie-black: #1F1F1F;
     --gris-carbon:#212529;
     --gris-pizarra: #1d222a;
     --verde-esmeralda: #29a587;
@@ -66,7 +66,7 @@ html::-webkit-scrollbar-thumb {
 
 /* Header */
 
-.header {
+.header, .header-light{
     padding: .8rem 3rem;
     display: flex;
     justify-content: space-between;
@@ -79,17 +79,10 @@ html::-webkit-scrollbar-thumb {
     transition: .5s;
 }
 .header-light{
-    background-image: linear-gradient(0deg, #FFFFFF 0%, #F0EBE3 100%);
-    padding: .8rem 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    transition: .5s;
+    background-color: var(--gris-niebla);
+}
+.header {
+    background-color: var(--gris-carbon);
 }
 
 .header.abajo, .header-light.abajo{
@@ -116,7 +109,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 nav.nav_menu.active, 
-nav.nav_menu_light.active {
+nav.nav_menu_light.active {     
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,12 +310,12 @@ span+span {
 /* Home */
 
 .home {
-    background-image: linear-gradient(0deg, #31363c 0%, #222831 100%);
+    background-color: var(--gris-carbon );
     width: 100%;
     height: auto;
 }
 .home_light{
-    background-image: linear-gradient(0deg, #FFFFFF 0%, #F0EBE3 100%);
+    background-color: var(--gris-niebla);
     width: 100%;
     height: auto;
 }
@@ -405,11 +398,11 @@ span+span {
     animation: typing 4s steps(17) alternate infinite;
 }
 .text-type::after{
-    background-image: linear-gradient(0deg, #31363c 0%, #222831 100%);
+    background-color: var(--gris-carbon);
     color: var(--verde-esmeralda);
 }
 .text-type_light::after{
-    background-image: linear-gradient(0deg, #FFFFFF 0%, #F0EBE3 100%);
+    background-color: var(--gris-niebla     );
     color: var(--gris-carbon);
 }
 
@@ -419,7 +412,7 @@ span+span {
     }
 }
 
-.container_parrafo-info {
+.container_parrafo-info, .container_parrafo-info_light {
     display: none;
 }
 
@@ -704,7 +697,7 @@ img.logo-sena {
     background-image: linear-gradient(0deg, #31363c 0%, #222831 100%);
 }
 .proyectos-light{
-    background-image: linear-gradient(180deg, #FFFFFF 0%, #F0EBE3 100%);
+    background-image: linear-gradient(0deg, #FFFFFF 0%, #F0EBE3 100%);
 }
 .proyectos h1, .proyectos-light h1 {
     display: block;
@@ -808,16 +801,18 @@ img.logo-sena {
 .btn_demo {
     padding: .9rem 0;
     border: none;
-    background-color: var(--verde-esmeralda);
-    color: var(--eerie-black);
+    background-color: transparent;
+    border: 1px solid var(--blanco-puro);
+    color: var(--blanco-puro);  
 }
 
 .btn_repo {
     padding: .8rem 0;
     background: none;
-    color: var(--verde-esmeralda);
-    border: 1px solid var(--verde-esmeralda);
-}
+    background-color: var(--gris-metalico);
+    color: var(--blanco-puro);
+    border: 1px solid transparent;
+}   
 
 .btn_demo img {
     width: 2rem;
@@ -825,9 +820,9 @@ img.logo-sena {
 }
 
 .container_btn--proyectos .btn_demo:hover {
-    background: #776254;
-    box-shadow: 0px 13px 33px -14px rgba(0,0,0,0.75);
-    transition: all .4s ease;
+    background: var(--verde-esmeralda);
+    box-shadow: 0px 4px 15px var(--negro-absoluto);
+    transition: all .4s ease;   
 }
 
 .btn_repo img {
@@ -836,9 +831,9 @@ img.logo-sena {
 }
 
 .container_btn--proyectos .btn_repo:hover {
-    background: var(--black);
-    box-shadow: 0px 13px 33px -14px rgba(0,0,0,0.75);
-    transition: all .4s ease;
+    background-color: var(--verde-esmeralda);
+    box-shadow: 0px 4px 15px var(--negro-absoluto);
+    transition: all .4s ease;    
 }
 
 /* Contacto */
@@ -889,7 +884,7 @@ img.logo-sena {
 .container_text--contacto p {
     font-size: 1.6rem;
     font-family: "Jost", sans-serif;
-    color: var(--dark-blue);
+    color: var(--gris-mate);
     margin-bottom: 3rem;
     letter-spacing: 1px;
     line-height: 2.3rem;
@@ -898,11 +893,11 @@ img.logo-sena {
 .form-contact input {
     font-family: "Jost", sans-serif;
     background: transparent;
-    border: 1px solid var(--dark-blue);
+    border: 1px solid var(--gris-mate);
     width: 100%;
     padding: 1rem;
     border-radius: 1rem;
-    color: var(--dark-blue);
+    color: var(--gris-mate);
     font-size: 1.6rem;
     outline: none;
     margin-bottom: 2rem;
@@ -910,7 +905,7 @@ img.logo-sena {
 }
 
 .form-contact input::placeholder {
-    color: var(--dark-blue);
+    color: var(--gris-mate);
 }
 
 .form-contact .input-invalid {
@@ -920,12 +915,12 @@ img.logo-sena {
 
 .form-contact textarea {
     background: transparent;
-    border: 1px solid var(--dark-blue);
+    border: 1px solid var(--gris-mate);
     font-family: "Jost", sans-serif;
     width: 100%;
     padding: 1rem;
     border-radius: 1rem;
-    color: var(--dark-blue);
+    color: var(--gris-mate);
     font-size: 1.6rem;
     outline: none;
     margin-bottom: 3rem;
@@ -934,7 +929,7 @@ img.logo-sena {
 }
 
 .form-contact textarea::placeholder {
-    color: var(--dark-blue);
+    color: var(--gris-mate);
 }
 
 .form-contact textarea::-webkit-scrollbar {
@@ -957,13 +952,13 @@ img.logo-sena {
 }
 
 .btn_form--contacto button {
-    background: var(--dark-blue);
+    background: var(--gris-mate);
     border: none;
     font-family: "Jost", sans-serif;
     width: 20rem;
     padding: .8rem 1rem;
     border-radius: 1rem;
-    color: var(--white);
+    color: var(--blanco-puro);
     font-size: 1.8rem;
     letter-spacing: 1px;
     cursor: pointer;
@@ -971,8 +966,8 @@ img.logo-sena {
 }
 
 .btn_form--contacto button:hover {
-    background: var(--dark-blue);
-    color: var(--black);
+    background: var(--blanco-puro);
+    color: var(--gris-mate);
     font-weight: bold;
     transform: scale(1.1);
     box-shadow: 0px 9px 15px -1px rgba(0,0,0,0.20);

@@ -1,4 +1,5 @@
 const btn = document.getElementById('button');
+const navMenu = document.getElementById('nav-menu-main');    
 const btnTema = document.getElementById('btnTema')
 const sectionAll = document.querySelectorAll('section[id]');
 const inputName = document.querySelector('#nombre');
@@ -21,19 +22,29 @@ window.addEventListener('scroll', () => {
 
 /*===== Boton Menu =====*/
 btn.addEventListener('click', function() {
+    // Verificar si el botón tiene la clase 'active'
     if (this.classList.contains('active')) {
         this.classList.remove('active');
         this.classList.add('not-active');
-        document.querySelector('.nav_menu').classList.remove('active');
-        document.querySelector('.nav_menu').classList.add('not-active');
+
+        // Verificar si 'navMenu' tiene alguna de las clases especificadas
+        if (navMenu.classList.contains('nav_menu') || navMenu.classList.contains('nav_menu_light')) {
+            navMenu.classList.remove('active');
+            navMenu.classList.add('not-active');
+        }
     }
-    else if((this.classList.contains('not-active'))){
+    // Si el botón tiene la clase 'not-active'
+    else if (this.classList.contains('not-active')) {
         this.classList.add('active');
         this.classList.remove('not-active');
-        document.querySelector('.nav_menu').classList.remove('not-active');
-        document.querySelector('.nav_menu').classList.add('active');
+
+        if (navMenu.classList.contains('nav_menu') || navMenu.classList.contains('nav_menu_light')) {
+            navMenu.classList.remove('not-active');
+            navMenu.classList.add('active');
+        }
     }
 });
+    
 
 /*===== Cambio de idioma =====*/
 const changeLanguage = async language => {

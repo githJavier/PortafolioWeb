@@ -75,7 +75,7 @@ html::-webkit-scrollbar-thumb {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 5;
     transition: .5s;
 }
 .header-light{
@@ -177,7 +177,9 @@ nav.nav_menu.not-active .flags,
 nav.nav_menu_light.not-active .flags {
     display: none;
 }
-
+.btn-not-active{
+    display: none;
+}
 .btn {
     position: absolute;
     top: 50%;
@@ -462,7 +464,7 @@ span+span {
 }
 
 .sobreMi{
-    background-image: linear-gradient(180deg, #31363c 0%, #222831 100%);
+    background-color: var(--gris-carbon);
 }
 .sobreMi-light{
     background-image: linear-gradient(180deg, #FFFFFF 0%, #F0EBE3 100%);
@@ -536,7 +538,7 @@ span+span {
     height: auto;
 }  
 .habilidades{
-    background-image: linear-gradient(0deg, #31363c 0%, #222831 100%);
+    background-color: var(--gris-carbon);
 }
 .habilidades-light{
     background-image: linear-gradient(0deg, #FFFFFF 0%, #F0EBE3 100%);
@@ -606,7 +608,7 @@ span+span {
     height: auto;
 }
 .formacion{
-    background-image: linear-gradient(180deg, #31363c 0%, #222831 100%);
+    background-color: var(--gris-carbon);
 }
 .formacion-light{
     background-image: linear-gradient(180deg, #FFFFFF 0%, #F0EBE3 100%);
@@ -694,7 +696,7 @@ img.logo-sena {
     padding: 0 1rem 1rem 1rem;
 }
 .proyectos{
-    background-image: linear-gradient(0deg, #31363c 0%, #222831 100%);
+    background-color: var(--gris-carbon);
 }
 .proyectos-light{
     background-image: linear-gradient(0deg, #FFFFFF 0%, #F0EBE3 100%);
@@ -844,7 +846,7 @@ img.logo-sena {
     padding: 0 2rem 5rem 2rem;
 }
 .contacto{
-    background-image: linear-gradient(180deg, #31363c 0%, #222831 100%);
+    background-color: var(--gris-carbon);
 }
 .contacto-light{
     background-image: linear-gradient(180deg, #FFFFFF 0%, #F0EBE3 100%);
@@ -975,13 +977,14 @@ img.logo-sena {
 }
 
 .btn_form--contacto button:active {
-    background: var(--dark-blue);
+    background: var(--gris-mate);
+    color: var(--blanco-puro);
 }
 
 /* Footer */
 
 .footer {
-    background-image: linear-gradient(0deg, #31363c 0%, #222831 100%);
+    background-color: var(--gris-carbon);
 }
 .footer-light{
     background-image: linear-gradient(0deg, #FFFFFF 0%, #F0EBE3 100%);

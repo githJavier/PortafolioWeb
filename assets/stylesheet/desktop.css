@@ -44,7 +44,7 @@ nav.nav_menu_light a:hover,
 nav.nav_menu_light a.active{
     color: var(--negro-absoluto);
     padding: .5rem;
-    border-bottom: 1px solid var(--dark-blue);
+    border-bottom: 1px solid var(--verde-esmeralda);
     transition: all .5s;
 }
 
@@ -59,8 +59,11 @@ nav.nav_menu_light.not-active .flags {
     width: 7rem;
     justify-content: space-between;
     align-items: center;
+    margin-right: 1rem;
 }
-
+.flags-tema{
+    margin-left: 1rem;
+}
 nav.nav_menu.not-active .flags__item,  
 nav.nav_menu_light.not-active .flags__item{
     filter: contrast(65%);

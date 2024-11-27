@@ -637,7 +637,7 @@ span+span {
 }
 
 .cards--formacion {
-    background-color: var(--gris-carbon);
+    background-color: var(--eerie-black);
     border-radius: 24px;
     display: flex;
     flex-direction: column;

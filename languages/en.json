@@ -32,6 +32,8 @@
 
     "proyectos": {
         "title": "Projects",
+        "title-proyecto1": "Login design",
+        "info-proyecto1": "Design of a project that allows users to log in, create an account, and securely change their password.",
         "title-proyecto2": "Portfolio",
         "info-proyecto2": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background."
     },

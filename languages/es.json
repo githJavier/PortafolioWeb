@@ -32,6 +32,8 @@
 
     "proyectos": {
         "title": "Proyectos",
+        "title-proyecto1": "Diseño iniciar sesión",
+        "info-proyecto1": "Diseño de un proyecto que permite a los usuarios iniciar sesión, crear cuenta y cambiar su contraseña de forma segura.",
         "title-proyecto2": "Portafolio",
         "info-proyecto2": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación."
     },

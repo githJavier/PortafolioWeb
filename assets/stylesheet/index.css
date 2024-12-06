@@ -43,7 +43,7 @@
 html {
     font-size: 62.5%;
     scrollbar-width: thin;
-    scrollbar-color: var(--verde-esmeralda) var(--verde-esmeralda);
+    scrollbar-color: var(--blanco-puro) var(--verde-esmeralda);
     scroll-behavior: smooth;
 }
 

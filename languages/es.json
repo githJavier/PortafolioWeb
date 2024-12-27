@@ -9,8 +9,8 @@
 
     "home": {
         "home_text-1": "Hola! Soy",
-        "home_text-3": "Desarrollador web",
-        "parrafo-info": "Estudiante de Ingeniería de Sistemas con sólidos conocimientos en programación, me enfoco más al Desaarrollo Web. Estoy listo para contribuir en entornos profesionales, aplicando mis conocimientos y habilidades técnicas para desarrollar proyectos que brinden la mejor experiencia al usuario.",
+        "home_text-3": "Desarrollador full-stack",
+        "parrafo-info": "Estudiante de Ingeniería de Sistemas con sólidos conocimientos en programación, me enfoco más al Desarrollo Full-Stack. Estoy listo para contribuir en entornos profesionales, aplicando mis conocimientos y habilidades técnicas para desarrollar proyectos que brinden la mejor experiencia al usuario.",
         "cv_button": "Descargar CV",
         "contact_button": "Contacto"
     },
@@ -32,10 +32,12 @@
 
     "proyectos": {
         "title": "Proyectos",
-        "title-proyecto1": "Diseño iniciar sesión",
+        "title-proyecto1": "Diseño de Login Responsivo",
         "info-proyecto1": "Diseño de un proyecto que permite a los usuarios iniciar sesión, crear cuenta y cambiar su contraseña de forma segura.",
         "title-proyecto2": "Portafolio",
-        "info-proyecto2": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación."
+        "info-proyecto2": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
+        "title-proyecto3": "Sistema de Ventas",
+        "info-proyecto3": "Un sistema diseñado para optimizar operaciones comerciales, simplificar la gestión de ventas, usuarios y productos, y mejorar la productividad y la experiencia empresarial."
     },
 
     "contacto": {

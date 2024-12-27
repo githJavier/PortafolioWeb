@@ -371,10 +371,10 @@ span+span {
 .home_text-3,
 .home_text-3_light {
     font-family: "Jost", sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    width: 28rem;
+    width: 27.0rem;
     margin: 0 auto;
     text-align: start;
 }

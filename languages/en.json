@@ -9,8 +9,8 @@
 
     "home": {
         "home_text-1": "Hi! I'm",
-        "home_text-3": "Web Developer",
-        "parrafo-info": "Systems Engineering student with solid knowledge in programming, I focus more on Web Development. I am ready to contribute in professional environments, applying my knowledge and technical skills to develop projects that provide the best user experience.",
+        "home_text-3": "Full-stack developer",
+        "parrafo-info": "Systems Engineering student with solid programming knowledge, I focus more on Full-Stack Development. I am ready to contribute in professional environments, applying my knowledge and technical skills to develop projects that provide the best user experience.",
         "cv_button": "Download CV",
         "contact_button": "Contact"
     },
@@ -32,10 +32,12 @@
 
     "proyectos": {
         "title": "Projects",
-        "title-proyecto1": "Login design",
+        "title-proyecto1": "Responsive Login Design",
         "info-proyecto1": "Design of a project that allows users to log in, create an account, and securely change their password.",
         "title-proyecto2": "Portfolio",
-        "info-proyecto2": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background."
+        "info-proyecto2": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background.",
+        "title-proyecto3": "Sales System",
+        "info-proyecto3": "A system designed to optimize business operations, simplify sales, user and product management, and improve productivity and business experience."
     },
 
     "contacto": {
